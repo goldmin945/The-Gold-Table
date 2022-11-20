@@ -1,0 +1,106 @@
+2022-11-13T14:47:28+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Gold',
+  'HTTP_REFERER' => 'https://dev-gold-table.pantheonsite.io/wp-admin/plugin-install.php?s=woocommerce20payment&tab=search&type=term',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/admin.php?page=wc-admin&path=/payments/connect',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-13T14:47:28+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/disputes/status_counts?test_mode=1
+2022-11-13T14:47:28+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-13T14:47:28+00:00 ERROR HTTP_REQUEST_ERROR Site is not connected to WordPress.com
+2022-11-13T14:51:08+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Gold',
+  'HTTP_REFERER' => 'https://wordpress.com/',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/admin.php?page=wc-admin&path=paymentsoverview&wcpay-connect=1&wcpay-connect-jetpack-success=1&_wpnonce=58482eea90',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-13T14:51:09+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=1
+2022-11-13T14:51:09+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-13T14:51:09+00:00 INFO RESPONSE: array (
+)
+2022-11-13T14:51:09+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Gold',
+  'HTTP_REFERER' => 'https://wordpress.com/',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/admin.php?page=wc-admin&path=paymentsoverview&wcpay-connect=1&wcpay-connect-jetpack-success=1&_wpnonce=58482eea90',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-13T14:51:09+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/onboarding/init
+2022-11-13T14:51:09+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+  'Idempotency-Key' => '6000d4c3-4bf3-4171-9a61-903c8a6da102',
+)
+2022-11-13T14:51:09+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'return_url' => 'https://dev-gold-table.pantheonsite.io/wp-admin/admin.php?page=wc-admin&path=/payments/overview',
+  'business_data' => 
+  array (
+    'email' => '(redacted)',
+    'business_name' => 'Gold&#039;s Table',
+    'url' => 'https://dev-gold-table.pantheonsite.io',
+    'country' => '(redacted)',
+    'company' => 
+    array (
+      'structure' => NULL,
+    ),
+  ),
+  'site_data' => 
+  array (
+    'site_username' => 'Gold',
+    'site_locale' => 'en_US',
+  ),
+  'create_live_account' => false,
+  'actioned_notes' => 
+  array (
+  ),
+)
+2022-11-13T14:51:09+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => 'https://dev-gold-table.pantheonsite.io/?for=jetpack&jetpack=comms&token=MJ4rgDeOfwwqtHIJkq6sRAALK511&timestamp=1668351069&nonce=olYWdQAbH4&body-hash=s9IVMBYjnyQqntsXBl48kcJyqpc&signature=MIfyhrFPnmmUoxhBBMs9jK7HZw',
+  'HTTP_USER_AGENT' => 'Jetpack by WordPress.com',
+  'REQUEST_URI' => '/?for=jetpack&jetpack=comms&token=MJ4rgDeOfwwqtHIJkq6sRAALK511&timestamp=1668351069&nonce=olYWdQAbH4&body-hash=s9IVMBYjnyQqntsXBl48kcJyqpc&signature=MIfyhrFPnmmUoxhBBMs9jK7HZw',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-13T14:51:09+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=1
+2022-11-13T14:51:09+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-13T14:51:09+00:00 INFO RESPONSE: array (
+)
+2022-11-13T14:51:12+00:00 INFO RESPONSE: array (
+  'url' => 'https://connect.stripe.com/setup/e/acct_1M3hWbFzlKcBj7RX/WUOisuVmkvfV',
+  'state' => '(redacted)',
+)
+2022-11-13T17:09:22+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Gold',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-13T17:09:22+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=1
+2022-11-13T17:09:22+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-13T17:09:22+00:00 INFO RESPONSE: array (
+)

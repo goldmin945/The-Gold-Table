@@ -1,0 +1,54 @@
+2022-11-18T18:32:31+00:00 CRITICAL Uncaught Error: Class 'WC_Payments_Admin_Settings' not found in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php:2970
+Stack trace:
+#0 /code/wp-content/plugins/woocommerce/src/Admin/Features/PaymentGatewaySuggestions/PaymentGatewaysController.php(40): WC_Payment_Gateway_WCPay::get_settings_url()
+#1 /code/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\PaymentGatewaySuggestions\PaymentGatewaysController::extend_response(Object(WP_REST_Response), Object(WCPay\Payment_Methods\CC_Payment_Gateway), Object(WP_REST_Request))
+#2 /code/wp-includes/plugin.php(205): WP_Hook->apply_filters(Object(WP_REST_Response), Array)
+#3 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php(63): apply_filters('woocommerce_res...', Object(WP_REST_Response), Object(WCPay\Payment_Methods\CC_Payment_Gateway), Object(WP_REST_Request))
+#4 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Ver in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php on line 2970
+
+2022-11-18T18:34:25+00:00 CRITICAL Uncaught Error: Class 'WC_Payments_Admin_Settings' not found in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php:2970
+Stack trace:
+#0 /code/wp-content/plugins/woocommerce/src/Admin/Features/PaymentGatewaySuggestions/PaymentGatewaysController.php(40): WC_Payment_Gateway_WCPay::get_settings_url()
+#1 /code/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\PaymentGatewaySuggestions\PaymentGatewaysController::extend_response(Object(WP_REST_Response), Object(WCPay\Payment_Methods\CC_Payment_Gateway), Object(WP_REST_Request))
+#2 /code/wp-includes/plugin.php(205): WP_Hook->apply_filters(Object(WP_REST_Response), Array)
+#3 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php(63): apply_filters('woocommerce_res...', Object(WP_REST_Response), Object(WCPay\Payment_Methods\CC_Payment_Gateway), Object(WP_REST_Request))
+#4 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Ver in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php on line 2970
+
+2022-11-18T18:40:27+00:00 CRITICAL Uncaught Error: Class 'WC_Payments_Admin_Settings' not found in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php:2970
+Stack trace:
+#0 /code/wp-content/plugins/woocommerce/src/Admin/Features/PaymentGatewaySuggestions/PaymentGatewaysController.php(40): WC_Payment_Gateway_WCPay::get_settings_url()
+#1 /code/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\PaymentGatewaySuggestions\PaymentGatewaysController::extend_response(Object(WP_REST_Response), Object(WCPay\Payment_Methods\UPE_Payment_Gateway), Object(WP_REST_Request))
+#2 /code/wp-includes/plugin.php(205): WP_Hook->apply_filters(Object(WP_REST_Response), Array)
+#3 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php(63): apply_filters('woocommerce_res...', Object(WP_REST_Response), Object(WCPay\Payment_Methods\UPE_Payment_Gateway), Object(WP_REST_Request))
+#4 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/V in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php on line 2970
+
+2022-11-18T18:44:25+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Error: Accounts do not currently support `card_payments` without `transfers`. Please visit https://stripe.com/docs/connect/account-capabilities#card-payments for more details. in /code/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php:2239
+Stack trace:
+#0 /code/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(2084): WC_Payments_API_Client->check_response_for_errors(Array)
+#1 /code/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(1173): WC_Payments_API_Client->request(Array, 'accounts/capabi...', 'POST', true, true)
+#2 /code/wp-content/plugins/woocommerce-payments/includes/admin/class-wc-rest-payments-settings-controller.php(478): WC_Payments_API_Client->request_capability('card_payments', true)
+#3 /code/wp-content/plugins/woocommerce-payments/includes/admin/class-wc-rest-payments-settings-controller.php(459): WC_REST_Payments_Se in /code/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php on line 2239
+
+2022-11-18T18:44:30+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Error: Accounts do not currently support `card_payments` without `transfers`. Please visit https://stripe.com/docs/connect/account-capabilities#card-payments for more details. in /code/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php:2239
+Stack trace:
+#0 /code/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(2084): WC_Payments_API_Client->check_response_for_errors(Array)
+#1 /code/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php(1173): WC_Payments_API_Client->request(Array, 'accounts/capabi...', 'POST', true, true)
+#2 /code/wp-content/plugins/woocommerce-payments/includes/admin/class-wc-rest-payments-settings-controller.php(478): WC_Payments_API_Client->request_capability('card_payments', true)
+#3 /code/wp-content/plugins/woocommerce-payments/includes/admin/class-wc-rest-payments-settings-controller.php(459): WC_REST_Payments_Se in /code/wp-content/plugins/woocommerce-payments/includes/wc-payment-api/class-wc-payments-api-client.php on line 2239
+
+2022-11-18T18:45:29+00:00 CRITICAL Uncaught Error: Class 'WC_Payments_Admin_Settings' not found in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php:2970
+Stack trace:
+#0 /code/wp-content/plugins/woocommerce/src/Admin/Features/PaymentGatewaySuggestions/PaymentGatewaysController.php(40): WC_Payment_Gateway_WCPay::get_settings_url()
+#1 /code/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\PaymentGatewaySuggestions\PaymentGatewaysController::extend_response(Object(WP_REST_Response), Object(WCPay\Payment_Methods\UPE_Payment_Gateway), Object(WP_REST_Request))
+#2 /code/wp-includes/plugin.php(205): WP_Hook->apply_filters(Object(WP_REST_Response), Array)
+#3 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php(63): apply_filters('woocommerce_res...', Object(WP_REST_Response), Object(WCPay\Payment_Methods\UPE_Payment_Gateway), Object(WP_REST_Request))
+#4 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/V in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php on line 2970
+
+2022-11-18T18:46:04+00:00 CRITICAL Uncaught Error: Class 'WC_Payments_Admin_Settings' not found in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php:2970
+Stack trace:
+#0 /code/wp-content/plugins/woocommerce/src/Admin/Features/PaymentGatewaySuggestions/PaymentGatewaysController.php(40): WC_Payment_Gateway_WCPay::get_settings_url()
+#1 /code/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\PaymentGatewaySuggestions\PaymentGatewaysController::extend_response(Object(WP_REST_Response), Object(WCPay\Payment_Methods\UPE_Payment_Gateway), Object(WP_REST_Request))
+#2 /code/wp-includes/plugin.php(205): WP_Hook->apply_filters(Object(WP_REST_Response), Array)
+#3 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php(63): apply_filters('woocommerce_res...', Object(WP_REST_Response), Object(WCPay\Payment_Methods\UPE_Payment_Gateway), Object(WP_REST_Request))
+#4 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/V in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php on line 2970
+

@@ -1,0 +1,47 @@
+2022-11-16T14:22:02+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-16T14:22:02+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=1
+2022-11-16T14:22:02+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-16T14:22:02+00:00 INFO RESPONSE: array (
+)
+2022-11-16T14:22:17+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Gold',
+  'HTTP_REFERER' => 'https://dev-gold-table.pantheonsite.io/wp-login.php?redirect_to=httpsdev-gold-table.pantheonsite.iowp-admin&reauth=1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-16T14:22:17+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/disputes/status_counts?test_mode=1
+2022-11-16T14:22:17+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-16T14:22:18+00:00 ERROR No account found for this site. (wcpay_account_not_found)
+2022-11-16T16:49:32+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Guest (non logged-in user)',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-16T16:49:32+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=1
+2022-11-16T16:49:32+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-16T16:49:32+00:00 INFO RESPONSE: array (
+)

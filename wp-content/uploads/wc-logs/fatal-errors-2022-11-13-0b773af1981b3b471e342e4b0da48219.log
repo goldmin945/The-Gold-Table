@@ -1,0 +1,80 @@
+2022-11-13T15:48:44+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php:14
+Stack trace:
+#0 /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/custom-mini-cart.php(65): include_once()
+#1 /code/wp-content/plugins/wp-cafe/core/shortcodes/hook.php(473): include_once('/code/wp-conten...')
+#2 /code/wp-includes/class-wp-hook.php(308): WpCafe\Core\Shortcodes\Hook->wpc_custom_mini_cart('')
+#3 /code/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /code/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /code/wp-includes/general-template.php(3059): do_action('wp_footer')
+#6 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(652): wp_footer()
+#7 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(600): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#8 /code/wp-includes/rest-api/class-wp-rest-server.php(1171): W in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php on line 14
+
+2022-11-13T15:48:44+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php:14
+Stack trace:
+#0 /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/custom-mini-cart.php(65): include_once()
+#1 /code/wp-content/plugins/wp-cafe/core/shortcodes/hook.php(473): include_once('/code/wp-conten...')
+#2 /code/wp-includes/class-wp-hook.php(308): WpCafe\Core\Shortcodes\Hook->wpc_custom_mini_cart('')
+#3 /code/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /code/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /code/wp-includes/general-template.php(3059): do_action('wp_footer')
+#6 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(652): wp_footer()
+#7 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(600): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#8 /code/wp-includes/rest-api/class-wp-rest-server.php(1171): W in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php on line 14
+
+2022-11-13T15:49:48+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php:14
+Stack trace:
+#0 /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/custom-mini-cart.php(65): include_once()
+#1 /code/wp-content/plugins/wp-cafe/core/shortcodes/hook.php(473): include_once('/code/wp-conten...')
+#2 /code/wp-includes/class-wp-hook.php(308): WpCafe\Core\Shortcodes\Hook->wpc_custom_mini_cart('')
+#3 /code/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /code/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /code/wp-includes/general-template.php(3059): do_action('wp_footer')
+#6 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(652): wp_footer()
+#7 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(600): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#8 /code/wp-includes/rest-api/class-wp-rest-server.php(1171): W in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php on line 14
+
+2022-11-13T15:49:49+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php:14
+Stack trace:
+#0 /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/custom-mini-cart.php(65): include_once()
+#1 /code/wp-content/plugins/wp-cafe/core/shortcodes/hook.php(473): include_once('/code/wp-conten...')
+#2 /code/wp-includes/class-wp-hook.php(308): WpCafe\Core\Shortcodes\Hook->wpc_custom_mini_cart('')
+#3 /code/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /code/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /code/wp-includes/general-template.php(3059): do_action('wp_footer')
+#6 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(652): wp_footer()
+#7 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(600): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#8 /code/wp-includes/rest-api/class-wp-rest-server.php(1171): W in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php on line 14
+
+2022-11-13T15:49:57+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php:14
+Stack trace:
+#0 /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/custom-mini-cart.php(65): include_once()
+#1 /code/wp-content/plugins/wp-cafe/core/shortcodes/hook.php(473): include_once('/code/wp-conten...')
+#2 /code/wp-includes/class-wp-hook.php(308): WpCafe\Core\Shortcodes\Hook->wpc_custom_mini_cart('')
+#3 /code/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /code/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /code/wp-includes/general-template.php(3059): do_action('wp_footer')
+#6 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(652): wp_footer()
+#7 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(600): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#8 /code/wp-includes/rest-api/class-wp-rest-server.php(1171): W in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php on line 14
+
+2022-11-13T15:49:58+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php:14
+Stack trace:
+#0 /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/custom-mini-cart.php(65): include_once()
+#1 /code/wp-content/plugins/wp-cafe/core/shortcodes/hook.php(473): include_once('/code/wp-conten...')
+#2 /code/wp-includes/class-wp-hook.php(308): WpCafe\Core\Shortcodes\Hook->wpc_custom_mini_cart('')
+#3 /code/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /code/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /code/wp-includes/general-template.php(3059): do_action('wp_footer')
+#6 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(652): wp_footer()
+#7 /code/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(600): WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe('text', Array)
+#8 /code/wp-includes/rest-api/class-wp-rest-server.php(1171): W in /code/wp-content/plugins/wp-cafe/core/modules/mini-cart/views/mini-cart-template.php on line 14
+
+2022-11-13T17:35:04+00:00 CRITICAL Uncaught Error: Class 'WC_Payments_Admin_Settings' not found in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php:2970
+Stack trace:
+#0 /code/wp-content/plugins/woocommerce/src/Admin/Features/PaymentGatewaySuggestions/PaymentGatewaysController.php(40): WC_Payment_Gateway_WCPay::get_settings_url()
+#1 /code/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\PaymentGatewaySuggestions\PaymentGatewaysController::extend_response(Object(WP_REST_Response), Object(WCPay\Payment_Methods\CC_Payment_Gateway), Object(WP_REST_Request))
+#2 /code/wp-includes/plugin.php(205): WP_Hook->apply_filters(Object(WP_REST_Response), Array)
+#3 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php(63): apply_filters('woocommerce_res...', Object(WP_REST_Response), Object(WCPay\Payment_Methods\CC_Payment_Gateway), Object(WP_REST_Request))
+#4 /code/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Ver in /code/wp-content/plugins/woocommerce-payments/includes/class-wc-payment-gateway-wcpay.php on line 2970
+

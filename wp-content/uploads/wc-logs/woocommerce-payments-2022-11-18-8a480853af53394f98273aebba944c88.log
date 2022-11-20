@@ -1,0 +1,2340 @@
+2022-11-18T13:53:21+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'oseji.marvelous-5781',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-18T13:53:21+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=1
+2022-11-18T13:53:21+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-18T13:53:25+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1M3hWbFzlKcBj7RX',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => false,
+  'has_pending_requirements' => true,
+  'has_overdue_requirements' => true,
+  'current_deadline' => NULL,
+  'status' => 'restricted',
+  'capabilities' => 
+  array (
+    'acss_debit_payments' => 'unrequested',
+    'affirm_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'bancontact_payments' => 'unrequested',
+    'card_payments' => 'unrequested',
+    'eps_payments' => 'unrequested',
+    'giropay_payments' => 'unrequested',
+    'ideal_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'p24_payments' => 'unrequested',
+    'sepa_debit_payments' => 'unrequested',
+    'sofort_payments' => 'unrequested',
+    'tax_reporting_us_1099_k' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'transfers' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+    'affirm_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_profile.support_phone',
+      2 => 'business_type',
+      3 => 'representative.dob.day',
+      4 => 'representative.dob.month',
+      5 => 'representative.dob.year',
+      6 => 'representative.first_name',
+      7 => 'representative.last_name',
+      8 => 'tos_acceptance.date',
+      9 => 'tos_acceptance.ip',
+    ),
+    'bancontact_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'card_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+    'eps_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'giropay_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'ideal_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'klarna' => 
+    array (
+      0 => 'legal_entity.type',
+    ),
+    'link_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+    'p24_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'sepa_debit_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'sofort_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+      0 => 'business_type',
+      1 => 'tos_acceptance.date',
+      2 => 'tos_acceptance.ip',
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+  ),
+  'payments_enabled' => false,
+  'deposits' => 
+  array (
+    'status' => 'disabled',
+    'interval' => 'daily',
+    'weekly_anchor' => '',
+    'monthly_anchor' => NULL,
+    'delay_days' => 2,
+    'completed_waiting_period' => false,
+    'minimum_deposit_amounts' => 
+    array (
+      'aud' => 500,
+      'cad' => 500,
+      'chf' => 500,
+      'dkk' => 5000,
+      'eur' => 500,
+      'gbp' => 500,
+      'hkd' => 5000,
+      'nok' => 5000,
+      'nzd' => 500,
+      'sek' => 5000,
+      'sgd' => 500,
+      'usd' => 500,
+    ),
+  ),
+  'statement_descriptor' => 'DEV-GOLD-TABLE.PANTHEONSITE.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-11-13 14:51:12',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'link' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sle',
+      111 => 'sll',
+      112 => 'sos',
+      113 => 'srd',
+      114 => 'std',
+      115 => 'szl',
+      116 => 'thb',
+      117 => 'tjs',
+      118 => 'top',
+      119 => 'try',
+      120 => 'ttd',
+      121 => 'twd',
+      122 => 'tzs',
+      123 => 'uah',
+      124 => 'ugx',
+      125 => 'uyu',
+      126 => 'uzs',
+      127 => 'vnd',
+      128 => 'vuv',
+      129 => 'wst',
+      130 => 'xaf',
+      131 => 'xcd',
+      132 => 'xof',
+      133 => 'xpf',
+      134 => 'yer',
+      135 => 'zar',
+      136 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'has_card_readers_available' => false,
+  'platform_checkout_eligible' => false,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://dev-gold-table.pantheonsite.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+  'locale' => 'en_US',
+  'has_more_failed_events' => false,
+  'has_submitted_vat_data' => false,
+  'is_documents_enabled' => false,
+  'card_testing_protection_eligible' => false,
+  'progressive_onboarding' => 
+  array (
+    'is_enabled' => false,
+    'is_complete' => false,
+  ),
+)
+2022-11-18T13:53:25+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'oseji.marvelous-5781',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-18T13:53:25+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/currency/rates?test_mode=1&currency_from=NGN
+2022-11-18T13:53:25+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-18T13:53:31+00:00 INFO RESPONSE: array (
+  'AED' => 0.008345,
+  'AFN' => 0.201307,
+  'ALL' => 0.256529,
+  'AMD' => 0.897839,
+  'ANG' => 0.004091,
+  'AOA' => 1.150099,
+  'ARS' => 0.369723,
+  'AUD' => 0.003382,
+  'AWG' => 0.004095,
+  'AZN' => 0.003862,
+  'BAM' => 0.004283,
+  'BBD' => 0.004544,
+  'BDT' => 0.233946,
+  'BGN' => 0.004283,
+  'BHD' => 0.000856,
+  'BIF' => 4.697913,
+  'BMD' => 0.002272,
+  'BND' => 0.003117,
+  'BOB' => 0.015687,
+  'BRL' => 0.012184,
+  'BSD' => 0.002272,
+  'BTC' => 1.35721E-7,
+  'BTN' => 0.185416,
+  'BWP' => 0.029407,
+  'BYN' => 0.005734,
+  'BZD' => 0.004576,
+  'CAD' => 0.00303,
+  'CDF' => 4.665206,
+  'CHF' => 0.002163,
+  'CLF' => 7.7E-5,
+  'CLP' => 2.112839,
+  'CNH' => 0.016185,
+  'CNY' => 0.016168,
+  'COP' => 11.352191,
+  'CRC' => 1.386006,
+  'CUC' => 0.002272,
+  'CUP' => 0.058504,
+  'CVE' => 0.243103,
+  'CZK' => 0.053318,
+  'DJF' => 0.404135,
+  'DKK' => 0.016286,
+  'DOP' => 0.12384,
+  'DZD' => 0.315392,
+  'EGP' => 0.055648,
+  'ERN' => 0.03408,
+  'ETB' => 0.121257,
+  'EUR' => 0.002189,
+  'FJD' => 0.00505,
+  'FKP' => 0.001906,
+  'GBP' => 0.001906,
+  'GEL' => 0.00618,
+  'GGP' => 0.001906,
+  'GHS' => 0.032917,
+  'GIP' => 0.001906,
+  'GMD' => 0.139841,
+  'GNF' => 19.562005,
+  'GTQ' => 0.017726,
+  'GYD' => 0.474958,
+  'HKD' => 0.017772,
+  'HNL' => 0.056103,
+  'HRK' => 0.016529,
+  'HTG' => 0.313288,
+  'HUF' => 0.893764,
+  'IDR' => 35.578607,
+  'ILS' => 0.007872,
+  'IMP' => 0.001906,
+  'INR' => 0.185657,
+  'IQD' => 3.313396,
+  'IRR' => 96.218867,
+  'ISK' => 0.326031,
+  'JEP' => 0.001906,
+  'JMD' => 0.349031,
+  'JOD' => 0.001613,
+  'JPY' => 0.317647,
+  'KES' => 0.277069,
+  'KGS' => 0.191014,
+  'KHR' => 9.398669,
+  'KMF' => 1.081468,
+  'KPW' => 2.044793,
+  'KRW' => 3.044059,
+  'KWD' => 0.000699,
+  'KYD' => 0.001892,
+  'KZT' => 1.048726,
+  'LAK' => 39.394324,
+  'LBP' => 3.43261,
+  'LKR' => 0.83431,
+  'LRD' => 0.349887,
+  'LSL' => 0.039268,
+  'LYD' => 0.011106,
+  'MAD' => 0.024303,
+  'MDL' => 0.043531,
+  'MGA' => 9.815288,
+  'MKD' => 0.134934,
+  'MMK' => 4.767477,
+  'MNT' => 7.740598,
+  'MOP' => 0.018291,
+  'MUR' => 0.099276,
+  'MVR' => 0.035011,
+  'MWK' => 2.330099,
+  'MXN' => 0.044192,
+  'MYR' => 0.010346,
+  'MZN' => 0.145067,
+  'NAD' => 0.039465,
+  'NGN' => 1,
+  'NIO' => 0.081714,
+  'NOK' => 0.022947,
+  'NPR' => 0.29667,
+  'NZD' => 0.003673,
+  'OMR' => 0.000875,
+  'PAB' => 0.002272,
+  'PEN' => 0.008653,
+  'PGK' => 0.007999,
+  'PHP' => 0.130304,
+  'PKR' => 0.504678,
+  'PLN' => 0.010298,
+  'PYG' => 16.27876,
+  'QAR' => 0.008305,
+  'RON' => 0.010821,
+  'RSD' => 0.256886,
+  'RUB' => 0.137451,
+  'RWF' => 2.385403,
+  'SAR' => 0.00854,
+  'SBD' => 0.0187,
+  'SCR' => 0.029426,
+  'SDG' => 1.291628,
+  'SEK' => 0.024072,
+  'SGD' => 0.003117,
+  'SHP' => 0.001906,
+  'SLL' => 40.134741,
+  'SOS' => 1.290543,
+  'SRD' => 0.069219,
+  'SSP' => 0.29595,
+  'STD' => 51.855927,
+  'SVC' => 0.019863,
+  'SYP' => 5.708448,
+  'SZL' => 0.039268,
+  'THB' => 0.081227,
+  'TJS' => 0.022853,
+  'TMT' => 0.007975,
+  'TND' => 0.00719,
+  'TOP' => 0.00539,
+  'TRY' => 0.042301,
+  'TTD' => 0.015409,
+  'TWD' => 0.070732,
+  'TZS' => 5.29409,
+  'UAH' => 0.083843,
+  'UGX' => 8.479138,
+  'USD' => 0.002272,
+  'UYU' => 0.09033,
+  'UZS' => 25.452287,
+  'VND' => 56.362994,
+  'VUV' => 0.277771,
+  'WST' => 0.006348,
+  'XAF' => 1.436109,
+  'XAG' => 0.000107,
+  'XAU' => 1.0E-6,
+  'XCD' => 0.00614,
+  'XDR' => 0.00169,
+  'XOF' => 1.436109,
+  'XPD' => 1.0E-6,
+  'XPF' => 0.261257,
+  'XPT' => 2.0E-6,
+  'YER' => 0.568282,
+  'ZAR' => 0.03923,
+  'ZMW' => 0.037833,
+  'ZWL' => 0.731581,
+)
+2022-11-18T17:38:38+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'oseji.marvelous-8729',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-18T17:38:38+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=1
+2022-11-18T17:38:38+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-18T17:38:40+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1M3hWbFzlKcBj7RX',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => false,
+  'has_pending_requirements' => true,
+  'has_overdue_requirements' => true,
+  'current_deadline' => NULL,
+  'status' => 'restricted',
+  'capabilities' => 
+  array (
+    'acss_debit_payments' => 'unrequested',
+    'affirm_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'bancontact_payments' => 'unrequested',
+    'card_payments' => 'unrequested',
+    'eps_payments' => 'unrequested',
+    'giropay_payments' => 'unrequested',
+    'ideal_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'p24_payments' => 'unrequested',
+    'sepa_debit_payments' => 'unrequested',
+    'sofort_payments' => 'unrequested',
+    'tax_reporting_us_1099_k' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'transfers' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+    'affirm_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_profile.support_phone',
+      2 => 'business_type',
+      3 => 'representative.dob.day',
+      4 => 'representative.dob.month',
+      5 => 'representative.dob.year',
+      6 => 'representative.first_name',
+      7 => 'representative.last_name',
+      8 => 'tos_acceptance.date',
+      9 => 'tos_acceptance.ip',
+    ),
+    'bancontact_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'card_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+    'eps_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'giropay_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'ideal_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'klarna' => 
+    array (
+      0 => 'legal_entity.type',
+    ),
+    'link_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+    'p24_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'sepa_debit_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'sofort_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+      0 => 'business_type',
+      1 => 'tos_acceptance.date',
+      2 => 'tos_acceptance.ip',
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+  ),
+  'payments_enabled' => false,
+  'deposits' => 
+  array (
+    'status' => 'disabled',
+    'interval' => 'daily',
+    'weekly_anchor' => '',
+    'monthly_anchor' => NULL,
+    'delay_days' => 2,
+    'completed_waiting_period' => false,
+    'minimum_deposit_amounts' => 
+    array (
+      'aud' => 500,
+      'cad' => 500,
+      'chf' => 500,
+      'dkk' => 5000,
+      'eur' => 500,
+      'gbp' => 500,
+      'hkd' => 5000,
+      'nok' => 5000,
+      'nzd' => 500,
+      'sek' => 5000,
+      'sgd' => 500,
+      'usd' => 500,
+    ),
+  ),
+  'statement_descriptor' => 'DEV-GOLD-TABLE.PANTHEONSITE.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-11-13 14:51:12',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'link' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sle',
+      111 => 'sll',
+      112 => 'sos',
+      113 => 'srd',
+      114 => 'std',
+      115 => 'szl',
+      116 => 'thb',
+      117 => 'tjs',
+      118 => 'top',
+      119 => 'try',
+      120 => 'ttd',
+      121 => 'twd',
+      122 => 'tzs',
+      123 => 'uah',
+      124 => 'ugx',
+      125 => 'uyu',
+      126 => 'uzs',
+      127 => 'vnd',
+      128 => 'vuv',
+      129 => 'wst',
+      130 => 'xaf',
+      131 => 'xcd',
+      132 => 'xof',
+      133 => 'xpf',
+      134 => 'yer',
+      135 => 'zar',
+      136 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'has_card_readers_available' => false,
+  'platform_checkout_eligible' => false,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://dev-gold-table.pantheonsite.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+  'locale' => 'en_US',
+  'has_more_failed_events' => false,
+  'has_submitted_vat_data' => false,
+  'is_documents_enabled' => false,
+  'card_testing_protection_eligible' => false,
+  'progressive_onboarding' => 
+  array (
+    'is_enabled' => false,
+    'is_complete' => false,
+  ),
+)
+2022-11-18T17:39:17+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Gold',
+  'HTTP_REFERER' => 'https://dev-gold-table.pantheonsite.io/wp-login.php?redirect_to=httpsdev-gold-table.pantheonsite.iowp-admin&reauth=1',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-18T17:39:17+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/disputes/status_counts?test_mode=1
+2022-11-18T17:39:17+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-18T17:39:17+00:00 INFO RESPONSE: array (
+)
+2022-11-18T18:39:30+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Gold',
+  'HTTP_REFERER' => 'https://dev-gold-table.pantheonsite.io/wp-admin/admin.php?page=wc-admin&path=paymentsoverview',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-json/wc/v3/payments/deposits/overview-all?_locale=user',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-18T18:39:30+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/deposits/overview-all?test_mode=1
+2022-11-18T18:39:30+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-18T18:39:30+00:00 INFO RESPONSE: array (
+  'deposit' => 
+  array (
+    'last_paid' => 
+    array (
+    ),
+    'next_scheduled' => 
+    array (
+    ),
+    'last_manual_deposits' => 
+    array (
+    ),
+  ),
+  'balance' => 
+  array (
+    'pending' => 
+    array (
+      0 => 
+      array (
+        'amount' => 0,
+        'currency' => 'usd',
+        'source_types' => 
+        array (
+          'card' => 0,
+        ),
+        'deposits_count' => 0,
+      ),
+    ),
+    'available' => 
+    array (
+      0 => 
+      array (
+        'amount' => 0,
+        'currency' => 'usd',
+        'source_types' => 
+        array (
+          'card' => 0,
+        ),
+      ),
+    ),
+    'instant' => 
+    array (
+    ),
+  ),
+  'account' => 
+  array (
+    'deposits_enabled' => false,
+    'deposits_blocked' => false,
+    'deposits_schedule' => 
+    array (
+      'delay_days' => 2,
+      'interval' => 'daily',
+    ),
+    'default_currency' => 'usd',
+  ),
+)
+2022-11-18T18:42:23+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Gold',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/admin.php?page=wc-settings&tab=checkout&section=woocommerce_payments&wcpay-login=1&_wpnonce=1ed90f161f',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-18T18:42:23+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts/login_links
+2022-11-18T18:42:23+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+  'Idempotency-Key' => '281b2681-d922-49bb-b69a-16d70e1e53eb',
+)
+2022-11-18T18:42:23+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'redirect_url' => 'https://dev-gold-table.pantheonsite.io/wp-admin/admin.php?page=wc-admin&path=/payments/overview',
+)
+2022-11-18T18:42:23+00:00 ERROR Cannot create a login link for an account that has not completed onboarding. (invalid_request_error)
+2022-11-18T18:42:24+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Gold',
+  'HTTP_REFERER' => '--',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-admin/admin.php?page=wc-admin&path=paymentsoverview&wcpay-login-error=1',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-18T18:42:24+00:00 INFO REQUEST GET https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts?test_mode=1
+2022-11-18T18:42:24+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+)
+2022-11-18T18:42:26+00:00 INFO RESPONSE: array (
+  'account_id' => 'acct_1M3hWbFzlKcBj7RX',
+  'email' => '(redacted)',
+  'live_publishable_key' => 'pk_live_iBIpeqzKOOx2Y8PFCRBfyMU000Q7xVG4Sn',
+  'test_publishable_key' => 'pk_test_51ETDmyFuiXB5oUVxwSobQMW5Tno1GclIq7ePZWzLeW4q8oa7Zb8hI5VfwI5sNT5nXuKYinLukNvGCXmsQXAoDGHG00MqHqlYHR',
+  'is_live' => false,
+  'has_pending_requirements' => true,
+  'has_overdue_requirements' => true,
+  'current_deadline' => NULL,
+  'status' => 'restricted',
+  'capabilities' => 
+  array (
+    'acss_debit_payments' => 'unrequested',
+    'affirm_payments' => 'unrequested',
+    'afterpay_clearpay_payments' => 'unrequested',
+    'bancontact_payments' => 'unrequested',
+    'card_payments' => 'unrequested',
+    'eps_payments' => 'unrequested',
+    'giropay_payments' => 'unrequested',
+    'ideal_payments' => 'unrequested',
+    'klarna' => 'unrequested',
+    'link_payments' => 'unrequested',
+    'p24_payments' => 'unrequested',
+    'sepa_debit_payments' => 'unrequested',
+    'sofort_payments' => 'unrequested',
+    'tax_reporting_us_1099_k' => 'unrequested',
+    'tax_reporting_us_1099_misc' => 'unrequested',
+    'transfers' => 'unrequested',
+    'us_bank_account_ach_payments' => 'unrequested',
+  ),
+  'capability_requirements' => 
+  array (
+    'acss_debit_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+    'affirm_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'afterpay_clearpay_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_profile.support_phone',
+      2 => 'business_type',
+      3 => 'representative.dob.day',
+      4 => 'representative.dob.month',
+      5 => 'representative.dob.year',
+      6 => 'representative.first_name',
+      7 => 'representative.last_name',
+      8 => 'tos_acceptance.date',
+      9 => 'tos_acceptance.ip',
+    ),
+    'bancontact_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'card_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+    'eps_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'giropay_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'ideal_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'klarna' => 
+    array (
+      0 => 'legal_entity.type',
+    ),
+    'link_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+    'p24_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'sepa_debit_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'sofort_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.dob.day',
+      3 => 'representative.dob.month',
+      4 => 'representative.dob.year',
+      5 => 'representative.first_name',
+      6 => 'representative.last_name',
+      7 => 'tos_acceptance.date',
+      8 => 'tos_acceptance.ip',
+    ),
+    'tax_reporting_us_1099_k' => 
+    array (
+    ),
+    'tax_reporting_us_1099_misc' => 
+    array (
+    ),
+    'transfers' => 
+    array (
+      0 => 'business_type',
+      1 => 'tos_acceptance.date',
+      2 => 'tos_acceptance.ip',
+    ),
+    'us_bank_account_ach_payments' => 
+    array (
+      0 => 'business_profile.mcc',
+      1 => 'business_type',
+      2 => 'representative.first_name',
+      3 => 'representative.last_name',
+      4 => 'tos_acceptance.date',
+      5 => 'tos_acceptance.ip',
+    ),
+  ),
+  'payments_enabled' => false,
+  'deposits' => 
+  array (
+    'status' => 'disabled',
+    'interval' => 'daily',
+    'weekly_anchor' => '',
+    'monthly_anchor' => NULL,
+    'delay_days' => 2,
+    'completed_waiting_period' => false,
+    'minimum_deposit_amounts' => 
+    array (
+      'aud' => 500,
+      'cad' => 500,
+      'chf' => 500,
+      'dkk' => 5000,
+      'eur' => 500,
+      'gbp' => 500,
+      'hkd' => 5000,
+      'nok' => 5000,
+      'nzd' => 500,
+      'sek' => 5000,
+      'sgd' => 500,
+      'usd' => 500,
+    ),
+  ),
+  'statement_descriptor' => 'DEV-GOLD-TABLE.PANTHEONSITE.IO',
+  'latest_tos_agreement' => 
+  array (
+    'date' => '2022-11-13 14:51:12',
+    'source' => 'signup',
+    'is_current_version' => true,
+  ),
+  'fees' => 
+  array (
+    'base' => 
+    array (
+      'percentage_rate' => 0.029,
+      'fixed_rate' => 30,
+      'currency' => 'usd',
+    ),
+    'discount' => 
+    array (
+    ),
+    'card' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'card_present' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.026,
+        'fixed_rate' => 10,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'link' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.029,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'bancontact' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'eps' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.018,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'ideal' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0,
+        'fixed_rate' => 80,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'giropay' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'p24' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.022,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+    'sofort' => 
+    array (
+      'base' => 
+      array (
+        'percentage_rate' => 0.014,
+        'fixed_rate' => 30,
+        'currency' => 'usd',
+      ),
+      'additional' => 
+      array (
+        'percentage_rate' => 0.015,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'fx' => 
+      array (
+        'percentage_rate' => 0.01,
+        'fixed_rate' => 0,
+        'currency' => 'usd',
+      ),
+      'discount' => 
+      array (
+      ),
+    ),
+  ),
+  'capital' => 
+  array (
+    'has_active_loan' => false,
+    'has_previous_loans' => false,
+    'loans' => 
+    array (
+    ),
+  ),
+  'fraud_services' => 
+  array (
+    'stripe' => 
+    array (
+    ),
+    'sift' => 
+    array (
+      'beacon_key' => 'affbdadb36',
+      'sandbox_beacon_key' => '6ad0ad748b',
+    ),
+  ),
+  'store_currencies' => 
+  array (
+    'default' => 'usd',
+    'supported' => 
+    array (
+    ),
+  ),
+  'customer_currencies' => 
+  array (
+    'supported' => 
+    array (
+      0 => 'usd',
+      1 => 'aed',
+      2 => 'afn',
+      3 => 'all',
+      4 => 'amd',
+      5 => 'ang',
+      6 => 'aoa',
+      7 => 'ars',
+      8 => 'aud',
+      9 => 'awg',
+      10 => 'azn',
+      11 => 'bam',
+      12 => 'bbd',
+      13 => 'bdt',
+      14 => 'bgn',
+      15 => 'bif',
+      16 => 'bmd',
+      17 => 'bnd',
+      18 => 'bob',
+      19 => 'brl',
+      20 => 'bsd',
+      21 => 'bwp',
+      22 => 'byn',
+      23 => 'bzd',
+      24 => 'cad',
+      25 => 'cdf',
+      26 => 'chf',
+      27 => 'clp',
+      28 => 'cny',
+      29 => 'cop',
+      30 => 'crc',
+      31 => 'cve',
+      32 => 'czk',
+      33 => 'djf',
+      34 => 'dkk',
+      35 => 'dop',
+      36 => 'dzd',
+      37 => 'egp',
+      38 => 'etb',
+      39 => 'eur',
+      40 => 'fjd',
+      41 => 'fkp',
+      42 => 'gbp',
+      43 => 'gel',
+      44 => 'gip',
+      45 => 'gmd',
+      46 => 'gnf',
+      47 => 'gtq',
+      48 => 'gyd',
+      49 => 'hkd',
+      50 => 'hnl',
+      51 => 'hrk',
+      52 => 'htg',
+      53 => 'huf',
+      54 => 'idr',
+      55 => 'ils',
+      56 => 'inr',
+      57 => 'isk',
+      58 => 'jmd',
+      59 => 'jpy',
+      60 => 'kes',
+      61 => 'kgs',
+      62 => 'khr',
+      63 => 'kmf',
+      64 => 'krw',
+      65 => 'kyd',
+      66 => 'kzt',
+      67 => 'lak',
+      68 => 'lbp',
+      69 => 'lkr',
+      70 => 'lrd',
+      71 => 'lsl',
+      72 => 'mad',
+      73 => 'mdl',
+      74 => 'mga',
+      75 => 'mkd',
+      76 => 'mmk',
+      77 => 'mnt',
+      78 => 'mop',
+      79 => 'mro',
+      80 => 'mur',
+      81 => 'mvr',
+      82 => 'mwk',
+      83 => 'mxn',
+      84 => 'myr',
+      85 => 'mzn',
+      86 => 'nad',
+      87 => 'ngn',
+      88 => 'nio',
+      89 => 'nok',
+      90 => 'npr',
+      91 => 'nzd',
+      92 => 'pab',
+      93 => 'pen',
+      94 => 'pgk',
+      95 => 'php',
+      96 => 'pkr',
+      97 => 'pln',
+      98 => 'pyg',
+      99 => 'qar',
+      100 => 'ron',
+      101 => 'rsd',
+      102 => 'rub',
+      103 => 'rwf',
+      104 => 'sar',
+      105 => 'sbd',
+      106 => 'scr',
+      107 => 'sek',
+      108 => 'sgd',
+      109 => 'shp',
+      110 => 'sle',
+      111 => 'sll',
+      112 => 'sos',
+      113 => 'srd',
+      114 => 'std',
+      115 => 'szl',
+      116 => 'thb',
+      117 => 'tjs',
+      118 => 'top',
+      119 => 'try',
+      120 => 'ttd',
+      121 => 'twd',
+      122 => 'tzs',
+      123 => 'uah',
+      124 => 'ugx',
+      125 => 'uyu',
+      126 => 'uzs',
+      127 => 'vnd',
+      128 => 'vuv',
+      129 => 'wst',
+      130 => 'xaf',
+      131 => 'xcd',
+      132 => 'xof',
+      133 => 'xpf',
+      134 => 'yer',
+      135 => 'zar',
+      136 => 'zmw',
+    ),
+  ),
+  'country' => '(redacted)',
+  'instant_deposits_eligible' => false,
+  'card_present_eligible' => true,
+  'has_card_readers_available' => false,
+  'platform_checkout_eligible' => false,
+  'business_profile' => 
+  array (
+    'name' => '(redacted)',
+    'url' => 'https://dev-gold-table.pantheonsite.io',
+    'support_address' => 
+    array (
+    ),
+    'support_email' => NULL,
+    'support_phone' => NULL,
+  ),
+  'branding' => 
+  array (
+    'icon' => NULL,
+    'logo' => NULL,
+    'primary_color' => NULL,
+    'secondary_color' => NULL,
+  ),
+  'locale' => 'en_US',
+  'has_more_failed_events' => false,
+  'has_submitted_vat_data' => false,
+  'is_documents_enabled' => false,
+  'card_testing_protection_eligible' => false,
+  'progressive_onboarding' => 
+  array (
+    'is_enabled' => false,
+    'is_complete' => false,
+  ),
+)
+2022-11-18T18:44:24+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Gold',
+  'HTTP_REFERER' => 'https://dev-gold-table.pantheonsite.io/wp-admin/admin.php?page=wc-settings&tab=checkout&section=woocommerce_payments',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-json/wc/v3/payments/settings?_locale=user',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-18T18:44:24+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts/capabilities
+2022-11-18T18:44:24+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+  'Idempotency-Key' => 'ee7995a2-5b3f-4c7b-897f-494791b9e908',
+)
+2022-11-18T18:44:24+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'capability_id' => 'card_payments',
+  'requested' => true,
+)
+2022-11-18T18:44:25+00:00 ERROR Accounts do not currently support `card_payments` without `transfers`. Please visit https://stripe.com/docs/connect/account-capabilities#card-payments for more details. (wcpay_bad_request)
+2022-11-18T18:44:29+00:00 INFO ENVIRONMENT: array (
+  'WP_User' => 'Gold',
+  'HTTP_REFERER' => 'https://dev-gold-table.pantheonsite.io/wp-admin/admin.php?page=wc-settings&tab=checkout&section=woocommerce_payments',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
+  'REQUEST_URI' => '/wp-json/wc/v3/payments/settings?_locale=user',
+  'DOING_AJAX' => false,
+  'DOING_CRON' => false,
+  'WP_CLI' => false,
+)
+2022-11-18T18:44:30+00:00 INFO REQUEST POST https://public-api.wordpress.com/wpcom/v2/sites/%s/wcpay/accounts/capabilities
+2022-11-18T18:44:30+00:00 INFO HEADERS: array (
+  'Content-Type' => 'application/json; charset=utf-8',
+  'User-Agent' => 'WooCommerce Payments/5.0.1',
+  'Idempotency-Key' => 'e6e4625c-521b-4911-ade0-b9177920471e',
+)
+2022-11-18T18:44:30+00:00 INFO BODY: array (
+  'test_mode' => true,
+  'capability_id' => 'card_payments',
+  'requested' => true,
+)
+2022-11-18T18:44:30+00:00 ERROR Accounts do not currently support `card_payments` without `transfers`. Please visit https://stripe.com/docs/connect/account-capabilities#card-payments for more details. (wcpay_bad_request)
